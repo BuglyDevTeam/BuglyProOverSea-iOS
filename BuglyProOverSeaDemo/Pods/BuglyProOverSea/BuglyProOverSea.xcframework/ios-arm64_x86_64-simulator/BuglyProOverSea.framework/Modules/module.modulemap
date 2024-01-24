@@ -1,0 +1,6 @@
+framework module BuglyProOverSea {
+  umbrella header "BuglyProOverSea-umbrella.h"
+
+  export *
+  module * { export * }
+}

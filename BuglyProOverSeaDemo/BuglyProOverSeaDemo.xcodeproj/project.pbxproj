@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145AA4629C8127933A2B41E5 /* Pods_BuglyProOverSeaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEB65C4BA275F00727CFAC7 /* Pods_BuglyProOverSeaDemo.framework */; };
+		1B56B4EA2B61342A00A29A2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B4E92B61342A00A29A2E /* AppDelegate.m */; };
+		1B56B4ED2B61342A00A29A2E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B4EC2B61342A00A29A2E /* SceneDelegate.m */; };
+		1B56B4F02B61342A00A29A2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B4EF2B61342A00A29A2E /* ViewController.m */; };
+		1B56B4F32B61342A00A29A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B56B4F12B61342A00A29A2E /* Main.storyboard */; };
+		1B56B4F52B61342B00A29A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B56B4F42B61342B00A29A2E /* Assets.xcassets */; };
+		1B56B4F82B61342B00A29A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B56B4F62B61342B00A29A2E /* LaunchScreen.storyboard */; };
+		1B56B4FB2B61342B00A29A2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B4FA2B61342B00A29A2E /* main.m */; };
+		1B56B5052B61342B00A29A2E /* BuglyProOverSeaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5042B61342B00A29A2E /* BuglyProOverSeaDemoTests.m */; };
+		1B56B50F2B61342B00A29A2E /* BuglyProOverSeaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B50E2B61342B00A29A2E /* BuglyProOverSeaDemoUITests.m */; };
+		1B56B5112B61342B00A29A2E /* BuglyProOverSeaDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5102B61342B00A29A2E /* BuglyProOverSeaDemoUITestsLaunchTests.m */; };
+		1B56B54A2B6137BF00A29A2E /* PerfTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B51E2B6137BF00A29A2E /* PerfTestViewController.mm */; };
+		1B56B54B2B6137BF00A29A2E /* MainFuncListViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B51F2B6137BF00A29A2E /* MainFuncListViewController.mm */; };
+		1B56B54C2B6137BF00A29A2E /* RMDeadlockSimulatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5212B6137BF00A29A2E /* RMDeadlockSimulatorViewController.m */; };
+		1B56B54D2B6137BF00A29A2E /* RMTableViewExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5222B6137BF00A29A2E /* RMTableViewExampleViewController.mm */; };
+		1B56B54E2B6137BF00A29A2E /* TableViewExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B56B5252B6137BF00A29A2E /* TableViewExample.storyboard */; };
+		1B56B54F2B6137BF00A29A2E /* BuglyLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5272B6137BF00A29A2E /* BuglyLockViewController.m */; };
+		1B56B5512B6137BF00A29A2E /* RMCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B52D2B6137BF00A29A2E /* RMCrashViewController.m */; };
+		1B56B5522B6137BF00A29A2E /* QAPMSigkillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5302B6137BF00A29A2E /* QAPMSigkillViewController.m */; };
+		1B56B5532B6137BF00A29A2E /* LeakExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B56B5332B6137BF00A29A2E /* LeakExample.storyboard */; };
+		1B56B5542B6137BF00A29A2E /* RMLeakExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5362B6137BF00A29A2E /* RMLeakExampleViewController.mm */; };
+		1B56B5552B6137BF00A29A2E /* RMMetricKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5382B6137BF00A29A2E /* RMMetricKitViewController.m */; };
+		1B56B5562B6137BF00A29A2E /* QAPMResourceMonitorViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B53C2B6137BF00A29A2E /* QAPMResourceMonitorViewController.mm */; };
+		1B56B5572B6137BF00A29A2E /* RMVCLeakExampleSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5402B6137BF00A29A2E /* RMVCLeakExampleSubViewController.m */; };
+		1B56B5582B6137BF00A29A2E /* RMVCLeakExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B56B5422B6137BF00A29A2E /* RMVCLeakExample.storyboard */; };
+		1B56B5592B6137BF00A29A2E /* RMVCLeakExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5432B6137BF00A29A2E /* RMVCLeakExampleViewController.m */; };
+		1B56B55A2B6137BF00A29A2E /* MemoryMonitor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B56B5472B6137BF00A29A2E /* MemoryMonitor.storyboard */; };
+		1B56B55B2B6137BF00A29A2E /* MemoryMonitorViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5482B6137BF00A29A2E /* MemoryMonitorViewController.mm */; };
+		1B56B55C2B6137BF00A29A2E /* ConfigViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5492B6137BF00A29A2E /* ConfigViewController.mm */; };
+		1B56B56A2B613F2D00A29A2E /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5602B613F2D00A29A2E /* YYWeakProxy.m */; };
+		1B56B56B2B613F2D00A29A2E /* UIButton+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5632B613F2D00A29A2E /* UIButton+Utils.m */; };
+		1B56B56C2B613F2D00A29A2E /* Locker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5662B613F2D00A29A2E /* Locker.mm */; };
+		1B56B56D2B613F2D00A29A2E /* Crasher.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B56B5692B613F2D00A29A2E /* Crasher.mm */; };
+		7A90AA10A2C450A8CF843CBF /* Pods_BuglyProOverSeaDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B247C24B9758933E26B557F /* Pods_BuglyProOverSeaDemoTests.framework */; };
+		C841C2010ED910BC1BE25394 /* Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FB46E5425F6F427B131916 /* Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B56B5012B61342B00A29A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B56B4DD2B61342A00A29A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B56B4E42B61342A00A29A2E;
+			remoteInfo = BuglyProOverSeaDemo;
+		};
+		1B56B50B2B61342B00A29A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B56B4DD2B61342A00A29A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B56B4E42B61342A00A29A2E;
+			remoteInfo = BuglyProOverSeaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B56B4E52B61342A00A29A2E /* BuglyProOverSeaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuglyProOverSeaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B56B4E82B61342A00A29A2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B56B4E92B61342A00A29A2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B56B4EB2B61342A00A29A2E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1B56B4EC2B61342A00A29A2E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1B56B4EE2B61342A00A29A2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B56B4EF2B61342A00A29A2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B56B4F22B61342A00A29A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B56B4F42B61342B00A29A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B56B4F72B61342B00A29A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B56B4F92B61342B00A29A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B56B4FA2B61342B00A29A2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B56B5002B61342B00A29A2E /* BuglyProOverSeaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuglyProOverSeaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B56B5042B61342B00A29A2E /* BuglyProOverSeaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuglyProOverSeaDemoTests.m; sourceTree = "<group>"; };
+		1B56B50A2B61342B00A29A2E /* BuglyProOverSeaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuglyProOverSeaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B56B50E2B61342B00A29A2E /* BuglyProOverSeaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuglyProOverSeaDemoUITests.m; sourceTree = "<group>"; };
+		1B56B5102B61342B00A29A2E /* BuglyProOverSeaDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuglyProOverSeaDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		1B56B51E2B6137BF00A29A2E /* PerfTestViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PerfTestViewController.mm; sourceTree = "<group>"; };
+		1B56B51F2B6137BF00A29A2E /* MainFuncListViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainFuncListViewController.mm; sourceTree = "<group>"; };
+		1B56B5212B6137BF00A29A2E /* RMDeadlockSimulatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDeadlockSimulatorViewController.m; sourceTree = "<group>"; };
+		1B56B5222B6137BF00A29A2E /* RMTableViewExampleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RMTableViewExampleViewController.mm; sourceTree = "<group>"; };
+		1B56B5232B6137BF00A29A2E /* RMDeadlockSimulatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDeadlockSimulatorViewController.h; sourceTree = "<group>"; };
+		1B56B5242B6137BF00A29A2E /* RMTableViewExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTableViewExampleViewController.h; sourceTree = "<group>"; };
+		1B56B5252B6137BF00A29A2E /* TableViewExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TableViewExample.storyboard; sourceTree = "<group>"; };
+		1B56B5272B6137BF00A29A2E /* BuglyLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuglyLockViewController.m; sourceTree = "<group>"; };
+		1B56B5282B6137BF00A29A2E /* BuglyLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuglyLockViewController.h; sourceTree = "<group>"; };
+		1B56B52B2B6137BF00A29A2E /* RMCrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCrashViewController.h; sourceTree = "<group>"; };
+		1B56B52D2B6137BF00A29A2E /* RMCrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCrashViewController.m; sourceTree = "<group>"; };
+		1B56B52F2B6137BF00A29A2E /* QAPMSigkillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAPMSigkillViewController.h; sourceTree = "<group>"; };
+		1B56B5302B6137BF00A29A2E /* QAPMSigkillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAPMSigkillViewController.m; sourceTree = "<group>"; };
+		1B56B5312B6137BF00A29A2E /* PerfTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfTestViewController.h; sourceTree = "<group>"; };
+		1B56B5332B6137BF00A29A2E /* LeakExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LeakExample.storyboard; sourceTree = "<group>"; };
+		1B56B5342B6137BF00A29A2E /* RMLeakExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLeakExampleViewController.h; sourceTree = "<group>"; };
+		1B56B5352B6137BF00A29A2E /* APMQQLeakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMQQLeakViewController.h; sourceTree = "<group>"; };
+		1B56B5362B6137BF00A29A2E /* RMLeakExampleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RMLeakExampleViewController.mm; sourceTree = "<group>"; };
+		1B56B5382B6137BF00A29A2E /* RMMetricKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMetricKitViewController.m; sourceTree = "<group>"; };
+		1B56B5392B6137BF00A29A2E /* RMMetricKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMetricKitViewController.h; sourceTree = "<group>"; };
+		1B56B53B2B6137BF00A29A2E /* QAPMResourceMonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAPMResourceMonitorViewController.h; sourceTree = "<group>"; };
+		1B56B53C2B6137BF00A29A2E /* QAPMResourceMonitorViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QAPMResourceMonitorViewController.mm; sourceTree = "<group>"; };
+		1B56B53D2B6137BF00A29A2E /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		1B56B53E2B6137BF00A29A2E /* MainFuncListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFuncListViewController.h; sourceTree = "<group>"; };
+		1B56B5402B6137BF00A29A2E /* RMVCLeakExampleSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMVCLeakExampleSubViewController.m; sourceTree = "<group>"; };
+		1B56B5412B6137BF00A29A2E /* RMVCLeakExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMVCLeakExampleViewController.h; sourceTree = "<group>"; };
+		1B56B5422B6137BF00A29A2E /* RMVCLeakExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RMVCLeakExample.storyboard; sourceTree = "<group>"; };
+		1B56B5432B6137BF00A29A2E /* RMVCLeakExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMVCLeakExampleViewController.m; sourceTree = "<group>"; };
+		1B56B5442B6137BF00A29A2E /* RMVCLeakExampleSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMVCLeakExampleSubViewController.h; sourceTree = "<group>"; };
+		1B56B5462B6137BF00A29A2E /* MemoryMonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryMonitorViewController.h; sourceTree = "<group>"; };
+		1B56B5472B6137BF00A29A2E /* MemoryMonitor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemoryMonitor.storyboard; sourceTree = "<group>"; };
+		1B56B5482B6137BF00A29A2E /* MemoryMonitorViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MemoryMonitorViewController.mm; sourceTree = "<group>"; };
+		1B56B5492B6137BF00A29A2E /* ConfigViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfigViewController.mm; sourceTree = "<group>"; };
+		1B56B5602B613F2D00A29A2E /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		1B56B5612B613F2D00A29A2E /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		1B56B5622B613F2D00A29A2E /* UIButton+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utils.h"; sourceTree = "<group>"; };
+		1B56B5632B613F2D00A29A2E /* UIButton+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utils.m"; sourceTree = "<group>"; };
+		1B56B5652B613F2D00A29A2E /* Locker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locker.h; sourceTree = "<group>"; };
+		1B56B5662B613F2D00A29A2E /* Locker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Locker.mm; sourceTree = "<group>"; };
+		1B56B5682B613F2D00A29A2E /* Crasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crasher.h; sourceTree = "<group>"; };
+		1B56B5692B613F2D00A29A2E /* Crasher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Crasher.mm; sourceTree = "<group>"; };
+		33FB46E5425F6F427B131916 /* Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A52FF41C0CF17B847F4DED /* Pods-BuglyProOverSeaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyProOverSeaDemo.release.xcconfig"; path = "Target Support Files/Pods-BuglyProOverSeaDemo/Pods-BuglyProOverSeaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3AEB65C4BA275F00727CFAC7 /* Pods_BuglyProOverSeaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuglyProOverSeaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B247C24B9758933E26B557F /* Pods_BuglyProOverSeaDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuglyProOverSeaDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAB09645FF7844BA30A9017 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67D850EEBA20358BEE5EC6EC /* Pods-BuglyProOverSeaDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyProOverSeaDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-BuglyProOverSeaDemoTests/Pods-BuglyProOverSeaDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		864E553E0584E35B58E462DB /* Pods-BuglyProOverSeaDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyProOverSeaDemoTests.release.xcconfig"; path = "Target Support Files/Pods-BuglyProOverSeaDemoTests/Pods-BuglyProOverSeaDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D3E90A5E1DBB8B72DBA0B2A /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA8E0B9008590404F00D1DC7 /* Pods-BuglyProOverSeaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuglyProOverSeaDemo.debug.xcconfig"; path = "Target Support Files/Pods-BuglyProOverSeaDemo/Pods-BuglyProOverSeaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B56B4E22B61342A00A29A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145AA4629C8127933A2B41E5 /* Pods_BuglyProOverSeaDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B56B4FD2B61342B00A29A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A90AA10A2C450A8CF843CBF /* Pods_BuglyProOverSeaDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B56B5072B61342B00A29A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C841C2010ED910BC1BE25394 /* Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B56B4DC2B61342A00A29A2E = {
+			isa = PBXGroup;
+			children = (
+				1B56B4E72B61342A00A29A2E /* BuglyProOverSeaDemo */,
+				1B56B5032B61342B00A29A2E /* BuglyProOverSeaDemoTests */,
+				1B56B50D2B61342B00A29A2E /* BuglyProOverSeaDemoUITests */,
+				1B56B4E62B61342A00A29A2E /* Products */,
+				29930898AF944355D3D4A9B3 /* Pods */,
+				FC006B5378139097E1E0D451 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B56B4E62B61342A00A29A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B4E52B61342A00A29A2E /* BuglyProOverSeaDemo.app */,
+				1B56B5002B61342B00A29A2E /* BuglyProOverSeaDemoTests.xctest */,
+				1B56B50A2B61342B00A29A2E /* BuglyProOverSeaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B56B4E72B61342A00A29A2E /* BuglyProOverSeaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B4E82B61342A00A29A2E /* AppDelegate.h */,
+				1B56B4E92B61342A00A29A2E /* AppDelegate.m */,
+				1B56B4EB2B61342A00A29A2E /* SceneDelegate.h */,
+				1B56B4EC2B61342A00A29A2E /* SceneDelegate.m */,
+				1B56B4EE2B61342A00A29A2E /* ViewController.h */,
+				1B56B4EF2B61342A00A29A2E /* ViewController.m */,
+				1B56B55D2B613F2D00A29A2E /* Common */,
+				1B56B51D2B6137BF00A29A2E /* ViewContorllers */,
+				1B56B4F12B61342A00A29A2E /* Main.storyboard */,
+				1B56B4F42B61342B00A29A2E /* Assets.xcassets */,
+				1B56B4F62B61342B00A29A2E /* LaunchScreen.storyboard */,
+				1B56B4F92B61342B00A29A2E /* Info.plist */,
+				1B56B4FA2B61342B00A29A2E /* main.m */,
+			);
+			path = BuglyProOverSeaDemo;
+			sourceTree = "<group>";
+		};
+		1B56B5032B61342B00A29A2E /* BuglyProOverSeaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5042B61342B00A29A2E /* BuglyProOverSeaDemoTests.m */,
+			);
+			path = BuglyProOverSeaDemoTests;
+			sourceTree = "<group>";
+		};
+		1B56B50D2B61342B00A29A2E /* BuglyProOverSeaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B50E2B61342B00A29A2E /* BuglyProOverSeaDemoUITests.m */,
+				1B56B5102B61342B00A29A2E /* BuglyProOverSeaDemoUITestsLaunchTests.m */,
+			);
+			path = BuglyProOverSeaDemoUITests;
+			sourceTree = "<group>";
+		};
+		1B56B51D2B6137BF00A29A2E /* ViewContorllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B51E2B6137BF00A29A2E /* PerfTestViewController.mm */,
+				1B56B51F2B6137BF00A29A2E /* MainFuncListViewController.mm */,
+				1B56B5202B6137BF00A29A2E /* Blue */,
+				1B56B5262B6137BF00A29A2E /* Lock */,
+				1B56B5292B6137BF00A29A2E /* Crash */,
+				1B56B52E2B6137BF00A29A2E /* Sigkill */,
+				1B56B5312B6137BF00A29A2E /* PerfTestViewController.h */,
+				1B56B5322B6137BF00A29A2E /* Leak */,
+				1B56B5372B6137BF00A29A2E /* MetricKit */,
+				1B56B53A2B6137BF00A29A2E /* ResourceMonitor */,
+				1B56B53D2B6137BF00A29A2E /* ConfigViewController.h */,
+				1B56B53E2B6137BF00A29A2E /* MainFuncListViewController.h */,
+				1B56B53F2B6137BF00A29A2E /* Yellow */,
+				1B56B5452B6137BF00A29A2E /* MemoryMonitor */,
+				1B56B5492B6137BF00A29A2E /* ConfigViewController.mm */,
+			);
+			path = ViewContorllers;
+			sourceTree = "<group>";
+		};
+		1B56B5202B6137BF00A29A2E /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5212B6137BF00A29A2E /* RMDeadlockSimulatorViewController.m */,
+				1B56B5222B6137BF00A29A2E /* RMTableViewExampleViewController.mm */,
+				1B56B5232B6137BF00A29A2E /* RMDeadlockSimulatorViewController.h */,
+				1B56B5242B6137BF00A29A2E /* RMTableViewExampleViewController.h */,
+				1B56B5252B6137BF00A29A2E /* TableViewExample.storyboard */,
+			);
+			path = Blue;
+			sourceTree = "<group>";
+		};
+		1B56B5262B6137BF00A29A2E /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5272B6137BF00A29A2E /* BuglyLockViewController.m */,
+				1B56B5282B6137BF00A29A2E /* BuglyLockViewController.h */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		1B56B5292B6137BF00A29A2E /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B52B2B6137BF00A29A2E /* RMCrashViewController.h */,
+				1B56B52D2B6137BF00A29A2E /* RMCrashViewController.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		1B56B52E2B6137BF00A29A2E /* Sigkill */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B52F2B6137BF00A29A2E /* QAPMSigkillViewController.h */,
+				1B56B5302B6137BF00A29A2E /* QAPMSigkillViewController.m */,
+			);
+			path = Sigkill;
+			sourceTree = "<group>";
+		};
+		1B56B5322B6137BF00A29A2E /* Leak */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5332B6137BF00A29A2E /* LeakExample.storyboard */,
+				1B56B5342B6137BF00A29A2E /* RMLeakExampleViewController.h */,
+				1B56B5352B6137BF00A29A2E /* APMQQLeakViewController.h */,
+				1B56B5362B6137BF00A29A2E /* RMLeakExampleViewController.mm */,
+			);
+			path = Leak;
+			sourceTree = "<group>";
+		};
+		1B56B5372B6137BF00A29A2E /* MetricKit */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5382B6137BF00A29A2E /* RMMetricKitViewController.m */,
+				1B56B5392B6137BF00A29A2E /* RMMetricKitViewController.h */,
+			);
+			path = MetricKit;
+			sourceTree = "<group>";
+		};
+		1B56B53A2B6137BF00A29A2E /* ResourceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B53B2B6137BF00A29A2E /* QAPMResourceMonitorViewController.h */,
+				1B56B53C2B6137BF00A29A2E /* QAPMResourceMonitorViewController.mm */,
+			);
+			path = ResourceMonitor;
+			sourceTree = "<group>";
+		};
+		1B56B53F2B6137BF00A29A2E /* Yellow */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5402B6137BF00A29A2E /* RMVCLeakExampleSubViewController.m */,
+				1B56B5412B6137BF00A29A2E /* RMVCLeakExampleViewController.h */,
+				1B56B5422B6137BF00A29A2E /* RMVCLeakExample.storyboard */,
+				1B56B5432B6137BF00A29A2E /* RMVCLeakExampleViewController.m */,
+				1B56B5442B6137BF00A29A2E /* RMVCLeakExampleSubViewController.h */,
+			);
+			path = Yellow;
+			sourceTree = "<group>";
+		};
+		1B56B5452B6137BF00A29A2E /* MemoryMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5462B6137BF00A29A2E /* MemoryMonitorViewController.h */,
+				1B56B5472B6137BF00A29A2E /* MemoryMonitor.storyboard */,
+				1B56B5482B6137BF00A29A2E /* MemoryMonitorViewController.mm */,
+			);
+			path = MemoryMonitor;
+			sourceTree = "<group>";
+		};
+		1B56B55D2B613F2D00A29A2E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B55E2B613F2D00A29A2E /* Utils */,
+				1B56B5642B613F2D00A29A2E /* Lock-Tester */,
+				1B56B5672B613F2D00A29A2E /* Crash-Tester */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1B56B55E2B613F2D00A29A2E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B55F2B613F2D00A29A2E /* YYWeakProxy */,
+				1B56B5622B613F2D00A29A2E /* UIButton+Utils.h */,
+				1B56B5632B613F2D00A29A2E /* UIButton+Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1B56B55F2B613F2D00A29A2E /* YYWeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5602B613F2D00A29A2E /* YYWeakProxy.m */,
+				1B56B5612B613F2D00A29A2E /* YYWeakProxy.h */,
+			);
+			path = YYWeakProxy;
+			sourceTree = "<group>";
+		};
+		1B56B5642B613F2D00A29A2E /* Lock-Tester */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5652B613F2D00A29A2E /* Locker.h */,
+				1B56B5662B613F2D00A29A2E /* Locker.mm */,
+			);
+			path = "Lock-Tester";
+			sourceTree = "<group>";
+		};
+		1B56B5672B613F2D00A29A2E /* Crash-Tester */ = {
+			isa = PBXGroup;
+			children = (
+				1B56B5682B613F2D00A29A2E /* Crasher.h */,
+				1B56B5692B613F2D00A29A2E /* Crasher.mm */,
+			);
+			path = "Crash-Tester";
+			sourceTree = "<group>";
+		};
+		29930898AF944355D3D4A9B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E0B9008590404F00D1DC7 /* Pods-BuglyProOverSeaDemo.debug.xcconfig */,
+				35A52FF41C0CF17B847F4DED /* Pods-BuglyProOverSeaDemo.release.xcconfig */,
+				9D3E90A5E1DBB8B72DBA0B2A /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig */,
+				5DAB09645FF7844BA30A9017 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig */,
+				67D850EEBA20358BEE5EC6EC /* Pods-BuglyProOverSeaDemoTests.debug.xcconfig */,
+				864E553E0584E35B58E462DB /* Pods-BuglyProOverSeaDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC006B5378139097E1E0D451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AEB65C4BA275F00727CFAC7 /* Pods_BuglyProOverSeaDemo.framework */,
+				33FB46E5425F6F427B131916 /* Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests.framework */,
+				5B247C24B9758933E26B557F /* Pods_BuglyProOverSeaDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B56B4E42B61342A00A29A2E /* BuglyProOverSeaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B56B5142B61342B00A29A2E /* Build configuration list for PBXNativeTarget "BuglyProOverSeaDemo" */;
+			buildPhases = (
+				F6582CBB8C99B01236EFA8EE /* [CP] Check Pods Manifest.lock */,
+				1B56B4E12B61342A00A29A2E /* Sources */,
+				1B56B4E22B61342A00A29A2E /* Frameworks */,
+				1B56B4E32B61342A00A29A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuglyProOverSeaDemo;
+			productName = BuglyProOverSeaDemo;
+			productReference = 1B56B4E52B61342A00A29A2E /* BuglyProOverSeaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B56B4FF2B61342B00A29A2E /* BuglyProOverSeaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B56B5172B61342B00A29A2E /* Build configuration list for PBXNativeTarget "BuglyProOverSeaDemoTests" */;
+			buildPhases = (
+				C612B83CBE46DABD23EBFF26 /* [CP] Check Pods Manifest.lock */,
+				1B56B4FC2B61342B00A29A2E /* Sources */,
+				1B56B4FD2B61342B00A29A2E /* Frameworks */,
+				1B56B4FE2B61342B00A29A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B56B5022B61342B00A29A2E /* PBXTargetDependency */,
+			);
+			name = BuglyProOverSeaDemoTests;
+			productName = BuglyProOverSeaDemoTests;
+			productReference = 1B56B5002B61342B00A29A2E /* BuglyProOverSeaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B56B5092B61342B00A29A2E /* BuglyProOverSeaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B56B51A2B61342B00A29A2E /* Build configuration list for PBXNativeTarget "BuglyProOverSeaDemoUITests" */;
+			buildPhases = (
+				9D2C7394D7177BBADCF17FF6 /* [CP] Check Pods Manifest.lock */,
+				1B56B5062B61342B00A29A2E /* Sources */,
+				1B56B5072B61342B00A29A2E /* Frameworks */,
+				1B56B5082B61342B00A29A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B56B50C2B61342B00A29A2E /* PBXTargetDependency */,
+			);
+			name = BuglyProOverSeaDemoUITests;
+			productName = BuglyProOverSeaDemoUITests;
+			productReference = 1B56B50A2B61342B00A29A2E /* BuglyProOverSeaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B56B4DD2B61342A00A29A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1B56B4E42B61342A00A29A2E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1B56B4FF2B61342B00A29A2E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1B56B4E42B61342A00A29A2E;
+					};
+					1B56B5092B61342B00A29A2E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1B56B4E42B61342A00A29A2E;
+					};
+				};
+			};
+			buildConfigurationList = 1B56B4E02B61342A00A29A2E /* Build configuration list for PBXProject "BuglyProOverSeaDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B56B4DC2B61342A00A29A2E;
+			productRefGroup = 1B56B4E62B61342A00A29A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B56B4E42B61342A00A29A2E /* BuglyProOverSeaDemo */,
+				1B56B4FF2B61342B00A29A2E /* BuglyProOverSeaDemoTests */,
+				1B56B5092B61342B00A29A2E /* BuglyProOverSeaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B56B4E32B61342A00A29A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B56B4F82B61342B00A29A2E /* LaunchScreen.storyboard in Resources */,
+				1B56B54E2B6137BF00A29A2E /* TableViewExample.storyboard in Resources */,
+				1B56B5582B6137BF00A29A2E /* RMVCLeakExample.storyboard in Resources */,
+				1B56B4F52B61342B00A29A2E /* Assets.xcassets in Resources */,
+				1B56B5532B6137BF00A29A2E /* LeakExample.storyboard in Resources */,
+				1B56B55A2B6137BF00A29A2E /* MemoryMonitor.storyboard in Resources */,
+				1B56B4F32B61342A00A29A2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B56B4FE2B61342B00A29A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B56B5082B61342B00A29A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D2C7394D7177BBADCF17FF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C612B83CBE46DABD23EBFF26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuglyProOverSeaDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6582CBB8C99B01236EFA8EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuglyProOverSeaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B56B4E12B61342A00A29A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B56B5562B6137BF00A29A2E /* QAPMResourceMonitorViewController.mm in Sources */,
+				1B56B54D2B6137BF00A29A2E /* RMTableViewExampleViewController.mm in Sources */,
+				1B56B5572B6137BF00A29A2E /* RMVCLeakExampleSubViewController.m in Sources */,
+				1B56B56A2B613F2D00A29A2E /* YYWeakProxy.m in Sources */,
+				1B56B55B2B6137BF00A29A2E /* MemoryMonitorViewController.mm in Sources */,
+				1B56B56B2B613F2D00A29A2E /* UIButton+Utils.m in Sources */,
+				1B56B55C2B6137BF00A29A2E /* ConfigViewController.mm in Sources */,
+				1B56B4F02B61342A00A29A2E /* ViewController.m in Sources */,
+				1B56B5522B6137BF00A29A2E /* QAPMSigkillViewController.m in Sources */,
+				1B56B54B2B6137BF00A29A2E /* MainFuncListViewController.mm in Sources */,
+				1B56B5512B6137BF00A29A2E /* RMCrashViewController.m in Sources */,
+				1B56B54A2B6137BF00A29A2E /* PerfTestViewController.mm in Sources */,
+				1B56B4EA2B61342A00A29A2E /* AppDelegate.m in Sources */,
+				1B56B5592B6137BF00A29A2E /* RMVCLeakExampleViewController.m in Sources */,
+				1B56B54F2B6137BF00A29A2E /* BuglyLockViewController.m in Sources */,
+				1B56B5542B6137BF00A29A2E /* RMLeakExampleViewController.mm in Sources */,
+				1B56B5552B6137BF00A29A2E /* RMMetricKitViewController.m in Sources */,
+				1B56B4FB2B61342B00A29A2E /* main.m in Sources */,
+				1B56B54C2B6137BF00A29A2E /* RMDeadlockSimulatorViewController.m in Sources */,
+				1B56B4ED2B61342A00A29A2E /* SceneDelegate.m in Sources */,
+				1B56B56D2B613F2D00A29A2E /* Crasher.mm in Sources */,
+				1B56B56C2B613F2D00A29A2E /* Locker.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B56B4FC2B61342B00A29A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B56B5052B61342B00A29A2E /* BuglyProOverSeaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B56B5062B61342B00A29A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B56B50F2B61342B00A29A2E /* BuglyProOverSeaDemoUITests.m in Sources */,
+				1B56B5112B61342B00A29A2E /* BuglyProOverSeaDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B56B5022B61342B00A29A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B56B4E42B61342A00A29A2E /* BuglyProOverSeaDemo */;
+			targetProxy = 1B56B5012B61342B00A29A2E /* PBXContainerItemProxy */;
+		};
+		1B56B50C2B61342B00A29A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B56B4E42B61342A00A29A2E /* BuglyProOverSeaDemo */;
+			targetProxy = 1B56B50B2B61342B00A29A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B56B4F12B61342A00A29A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B56B4F22B61342A00A29A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B56B4F62B61342B00A29A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B56B4F72B61342B00A29A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B56B5122B61342B00A29A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B56B5132B61342B00A29A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B56B5152B61342B00A29A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8E0B9008590404F00D1DC7 /* Pods-BuglyProOverSeaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BuglyProOverSeaDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"BuglyProOverSea\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-Wl",
+					"-ld_classic",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.buglypro-oversea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B56B5162B61342B00A29A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A52FF41C0CF17B847F4DED /* Pods-BuglyProOverSeaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BuglyProOverSeaDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"BuglyProOverSea\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-Wl",
+					"-ld_classic",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tencent.buglypro-oversea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B56B5182B61342B00A29A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D850EEBA20358BEE5EC6EC /* Pods-BuglyProOverSeaDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.BuglyProOverSeaDemo.BuglyProOverSeaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuglyProOverSeaDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuglyProOverSeaDemo";
+			};
+			name = Debug;
+		};
+		1B56B5192B61342B00A29A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864E553E0584E35B58E462DB /* Pods-BuglyProOverSeaDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.BuglyProOverSeaDemo.BuglyProOverSeaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuglyProOverSeaDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuglyProOverSeaDemo";
+			};
+			name = Release;
+		};
+		1B56B51B2B61342B00A29A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3E90A5E1DBB8B72DBA0B2A /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.BuglyProOverSeaDemo.BuglyProOverSeaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuglyProOverSeaDemo;
+			};
+			name = Debug;
+		};
+		1B56B51C2B61342B00A29A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DAB09645FF7844BA30A9017 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.BuglyProOverSeaDemo.BuglyProOverSeaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuglyProOverSeaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B56B4E02B61342A00A29A2E /* Build configuration list for PBXProject "BuglyProOverSeaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B56B5122B61342B00A29A2E /* Debug */,
+				1B56B5132B61342B00A29A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B56B5142B61342B00A29A2E /* Build configuration list for PBXNativeTarget "BuglyProOverSeaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B56B5152B61342B00A29A2E /* Debug */,
+				1B56B5162B61342B00A29A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B56B5172B61342B00A29A2E /* Build configuration list for PBXNativeTarget "BuglyProOverSeaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B56B5182B61342B00A29A2E /* Debug */,
+				1B56B5192B61342B00A29A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B56B51A2B61342B00A29A2E /* Build configuration list for PBXNativeTarget "BuglyProOverSeaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B56B51B2B61342B00A29A2E /* Debug */,
+				1B56B51C2B61342B00A29A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B56B4DD2B61342A00A29A2E /* Project object */;
+}

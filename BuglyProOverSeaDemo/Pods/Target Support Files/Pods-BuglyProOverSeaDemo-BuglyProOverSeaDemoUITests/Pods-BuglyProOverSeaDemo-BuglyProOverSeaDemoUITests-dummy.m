@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests
+@end

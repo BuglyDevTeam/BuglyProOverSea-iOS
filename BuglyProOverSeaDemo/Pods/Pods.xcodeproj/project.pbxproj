@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A5DC7B1951CDAB7350741D010C46C28 /* BuglyProOverSea */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02B4D9ED77AF16BCB91A5D5A4A002A6B /* Build configuration list for PBXAggregateTarget "BuglyProOverSea" */;
+			buildPhases = (
+				DB318D304C90130742810DC06DA024C1 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = BuglyProOverSea;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0BC9ABE59ECBAA616542CAEFBFD77132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		53E127CEA5522D906C26A6663CF6A59B /* Pods-BuglyProOverSeaDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C6F6B337A6C11EA0A1E8B52D0525AB /* Pods-BuglyProOverSeaDemoTests-dummy.m */; };
+		6B3FCC3EEF88FEE5901C47E38EB7FD0B /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D8F9568231F775D5CFD7CB7935AE94 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-dummy.m */; };
+		78CC12D5231F3F484CA8D590CEDC438B /* Pods-BuglyProOverSeaDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 573FFF2D69BDFE4C08C33506EBABC99B /* Pods-BuglyProOverSeaDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF1F060A7C2AA935B8A669009B78255F /* Pods-BuglyProOverSeaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 780F2F54B51920233B5380E0335FF60D /* Pods-BuglyProOverSeaDemo-dummy.m */; };
+		C3989346326E3609588EA340E4AB154B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D2EDB4BBD781FAFB15193143AC9C49DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E0138B2E5C3FA786D40556E63C729B4A /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FF4FF1D0FC93CB35F630ED7F4D3306 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF9FD309F361E176FE1BE02EF1E86943 /* Pods-BuglyProOverSeaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EFE007F167E5C54DD1C1E22A0620461 /* Pods-BuglyProOverSeaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282344D12DBF3406350B7BA69DD9F11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5411DC53A0934072179BC36509008285;
+			remoteInfo = "Pods-BuglyProOverSeaDemo";
+		};
+		5338753CE46B2581DBCA6DA226F40BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5DC7B1951CDAB7350741D010C46C28;
+			remoteInfo = BuglyProOverSea;
+		};
+		F5FB407B3B8DACEE4947EFD605B9F0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A5DC7B1951CDAB7350741D010C46C28;
+			remoteInfo = BuglyProOverSea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16DD4EACA990FA0CEDFA3CADBD1C8147 /* BuglyProOverSea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BuglyProOverSea.debug.xcconfig; sourceTree = "<group>"; };
+		1EFE007F167E5C54DD1C1E22A0620461 /* Pods-BuglyProOverSeaDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuglyProOverSeaDemo-umbrella.h"; sourceTree = "<group>"; };
+		209F00E91D6320EBA67EAFB54304D462 /* Pods-BuglyProOverSeaDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BuglyProOverSeaDemo"; path = Pods_BuglyProOverSeaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D19324C359EB006F8C27EC6140DD84 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		30202B6E505E7296C5AA91ACB65F65FF /* BuglyProOverSea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BuglyProOverSea.release.xcconfig; sourceTree = "<group>"; };
+		303B113CEE7D146481FD831649066A5F /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests"; path = Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E7BEB0B681BB70766A6DA5BFBBCE64 /* Pods-BuglyProOverSeaDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuglyProOverSeaDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3807E31EC5E1A110C75A4103CC5341C8 /* Pods-BuglyProOverSeaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuglyProOverSeaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		434C11DA7EE1D305DF8943AA9A1C325F /* Pods-BuglyProOverSeaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuglyProOverSeaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		573FFF2D69BDFE4C08C33506EBABC99B /* Pods-BuglyProOverSeaDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuglyProOverSeaDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		5A542404E072C307542648C16846ECE5 /* BuglyProOverSea.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = BuglyProOverSea.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74D8F9568231F775D5CFD7CB7935AE94 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		780F2F54B51920233B5380E0335FF60D /* Pods-BuglyProOverSeaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuglyProOverSeaDemo-dummy.m"; sourceTree = "<group>"; };
+		81A3264AD4591E59DFD28B98E76B2D48 /* Pods-BuglyProOverSeaDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuglyProOverSeaDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		82611B693EA96AA3CE3B099E2CCB0E2C /* Pods-BuglyProOverSeaDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuglyProOverSeaDemo-Info.plist"; sourceTree = "<group>"; };
+		85704B9DD75E2F121DC823E13389BAAF /* Pods-BuglyProOverSeaDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuglyProOverSeaDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AB81C37E7595AC12973B68AA22ECB93 /* Pods-BuglyProOverSeaDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuglyProOverSeaDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B4508EF7652C4C6D2922479699CB899 /* Pods-BuglyProOverSeaDemoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BuglyProOverSeaDemoTests"; path = Pods_BuglyProOverSeaDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90814EFF4898D59AA9CBC5B1512D0F0E /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		970D830FFD56BA59C707FF48A9BA91D5 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9868385050BFB71D1FA8C6A76C256174 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD38CDBB5A5AE931D31BA6CE4D8D64E7 /* Pods-BuglyProOverSeaDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuglyProOverSeaDemo.modulemap"; sourceTree = "<group>"; };
+		B6B1664041B27C5444AEAC1D01DA1BE9 /* Pods-BuglyProOverSeaDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuglyProOverSeaDemoTests.modulemap"; sourceTree = "<group>"; };
+		BD4941CBA3EFE76298E6BE52BE8F8D1C /* Pods-BuglyProOverSeaDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuglyProOverSeaDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D7C6F6B337A6C11EA0A1E8B52D0525AB /* Pods-BuglyProOverSeaDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuglyProOverSeaDemoTests-dummy.m"; sourceTree = "<group>"; };
+		E3FF4FF1D0FC93CB35F630ED7F4D3306 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		EAFEBDF1D1F12BD0589B07DCBECAC4E7 /* Pods-BuglyProOverSeaDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuglyProOverSeaDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC1E68590E0B085D55B9100958C90D97 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.modulemap"; sourceTree = "<group>"; };
+		FCE9E139E561674620C0428594EBC522 /* BuglyProOverSea-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "BuglyProOverSea-xcframeworks.sh"; sourceTree = "<group>"; };
+		FF2F4894E6E700EEF8B19B0506002D5E /* Pods-BuglyProOverSeaDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuglyProOverSeaDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFE72D42ECA889C05D80957678731255 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54547C43D773E03FAA7122863E066190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EDB4BBD781FAFB15193143AC9C49DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5A2A3A9794232E1395F343FFF093D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC9ABE59ECBAA616542CAEFBFD77132 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0A3E2331412990E7C1CEAB7635F1E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3989346326E3609588EA340E4AB154B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152EE53B73E33589DA2318358485781C /* Pods-BuglyProOverSeaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AD38CDBB5A5AE931D31BA6CE4D8D64E7 /* Pods-BuglyProOverSeaDemo.modulemap */,
+				EAFEBDF1D1F12BD0589B07DCBECAC4E7 /* Pods-BuglyProOverSeaDemo-acknowledgements.markdown */,
+				81A3264AD4591E59DFD28B98E76B2D48 /* Pods-BuglyProOverSeaDemo-acknowledgements.plist */,
+				780F2F54B51920233B5380E0335FF60D /* Pods-BuglyProOverSeaDemo-dummy.m */,
+				82611B693EA96AA3CE3B099E2CCB0E2C /* Pods-BuglyProOverSeaDemo-Info.plist */,
+				1EFE007F167E5C54DD1C1E22A0620461 /* Pods-BuglyProOverSeaDemo-umbrella.h */,
+				434C11DA7EE1D305DF8943AA9A1C325F /* Pods-BuglyProOverSeaDemo.debug.xcconfig */,
+				3807E31EC5E1A110C75A4103CC5341C8 /* Pods-BuglyProOverSeaDemo.release.xcconfig */,
+			);
+			name = "Pods-BuglyProOverSeaDemo";
+			path = "Target Support Files/Pods-BuglyProOverSeaDemo";
+			sourceTree = "<group>";
+		};
+		5645CA64B41DA45455ADCAF4034B40EF /* BuglyProOverSea */ = {
+			isa = PBXGroup;
+			children = (
+				D20B3D7E85A2AF189BFE0D8249ABD5BA /* Frameworks */,
+				595EDFC0F8BB06B08E6AC264E3808FB5 /* Support Files */,
+			);
+			name = BuglyProOverSea;
+			path = BuglyProOverSea;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		595EDFC0F8BB06B08E6AC264E3808FB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCE9E139E561674620C0428594EBC522 /* BuglyProOverSea-xcframeworks.sh */,
+				16DD4EACA990FA0CEDFA3CADBD1C8147 /* BuglyProOverSea.debug.xcconfig */,
+				30202B6E505E7296C5AA91ACB65F65FF /* BuglyProOverSea.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BuglyProOverSea";
+			sourceTree = "<group>";
+		};
+		64739AE083681FC943021BEA44E2DB4F /* Pods-BuglyProOverSeaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B1664041B27C5444AEAC1D01DA1BE9 /* Pods-BuglyProOverSeaDemoTests.modulemap */,
+				32E7BEB0B681BB70766A6DA5BFBBCE64 /* Pods-BuglyProOverSeaDemoTests-acknowledgements.markdown */,
+				8AB81C37E7595AC12973B68AA22ECB93 /* Pods-BuglyProOverSeaDemoTests-acknowledgements.plist */,
+				D7C6F6B337A6C11EA0A1E8B52D0525AB /* Pods-BuglyProOverSeaDemoTests-dummy.m */,
+				BD4941CBA3EFE76298E6BE52BE8F8D1C /* Pods-BuglyProOverSeaDemoTests-Info.plist */,
+				573FFF2D69BDFE4C08C33506EBABC99B /* Pods-BuglyProOverSeaDemoTests-umbrella.h */,
+				85704B9DD75E2F121DC823E13389BAAF /* Pods-BuglyProOverSeaDemoTests.debug.xcconfig */,
+				FF2F4894E6E700EEF8B19B0506002D5E /* Pods-BuglyProOverSeaDemoTests.release.xcconfig */,
+			);
+			name = "Pods-BuglyProOverSeaDemoTests";
+			path = "Target Support Files/Pods-BuglyProOverSeaDemoTests";
+			sourceTree = "<group>";
+		};
+		6510D9968DE7DF9477EE984BF0B4B1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209F00E91D6320EBA67EAFB54304D462 /* Pods-BuglyProOverSeaDemo */,
+				303B113CEE7D146481FD831649066A5F /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests */,
+				8B4508EF7652C4C6D2922479699CB899 /* Pods-BuglyProOverSeaDemoTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C005895D326F9D6CC053A2083B6486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5645CA64B41DA45455ADCAF4034B40EF /* BuglyProOverSea */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96DE6F0A706C5B5C299FAC90CCC5017D /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E68590E0B085D55B9100958C90D97 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.modulemap */,
+				970D830FFD56BA59C707FF48A9BA91D5 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-acknowledgements.markdown */,
+				FFE72D42ECA889C05D80957678731255 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-acknowledgements.plist */,
+				74D8F9568231F775D5CFD7CB7935AE94 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-dummy.m */,
+				9868385050BFB71D1FA8C6A76C256174 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-Info.plist */,
+				E3FF4FF1D0FC93CB35F630ED7F4D3306 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-umbrella.h */,
+				90814EFF4898D59AA9CBC5B1512D0F0E /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig */,
+				21D19324C359EB006F8C27EC6140DD84 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests";
+			path = "Target Support Files/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				75C005895D326F9D6CC053A2083B6486 /* Pods */,
+				6510D9968DE7DF9477EE984BF0B4B1B0 /* Products */,
+				FCF3678062384AC31795382E9C0B1449 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D20B3D7E85A2AF189BFE0D8249ABD5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A542404E072C307542648C16846ECE5 /* BuglyProOverSea.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCF3678062384AC31795382E9C0B1449 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				152EE53B73E33589DA2318358485781C /* Pods-BuglyProOverSeaDemo */,
+				96DE6F0A706C5B5C299FAC90CCC5017D /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests */,
+				64739AE083681FC943021BEA44E2DB4F /* Pods-BuglyProOverSeaDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15A672F77CEA547682C6CB2295CFF960 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0138B2E5C3FA786D40556E63C729B4A /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE2225DA0862149A3D0177030F1ED30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CC12D5231F3F484CA8D590CEDC438B /* Pods-BuglyProOverSeaDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE91733AA74F9E0CF627EFF5EC0173B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9FD309F361E176FE1BE02EF1E86943 /* Pods-BuglyProOverSeaDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1513EBB49A3A1A2F58C168910A00B9C4 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4DD96B570993366B30315471D1D501 /* Build configuration list for PBXNativeTarget "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests" */;
+			buildPhases = (
+				15A672F77CEA547682C6CB2295CFF960 /* Headers */,
+				A6CD3F2C8EDB29D2768417E25D9E72F7 /* Sources */,
+				BE5A2A3A9794232E1395F343FFF093D9 /* Frameworks */,
+				458E0CB4A6D5F80E20396B393EF7C47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E2B8F94A6CA5C8C4B3BCCDAA7C14A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests";
+			productName = Pods_BuglyProOverSeaDemo_BuglyProOverSeaDemoUITests;
+			productReference = 303B113CEE7D146481FD831649066A5F /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		5411DC53A0934072179BC36509008285 /* Pods-BuglyProOverSeaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2571ABC73565CFD87D24A6E3E8F90F /* Build configuration list for PBXNativeTarget "Pods-BuglyProOverSeaDemo" */;
+			buildPhases = (
+				EE91733AA74F9E0CF627EFF5EC0173B2 /* Headers */,
+				274A022E0D5005FB3628BFD8307849A9 /* Sources */,
+				54547C43D773E03FAA7122863E066190 /* Frameworks */,
+				2CC154DE24868DC1F49B8DE8E5ED7AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C8F6B87F4FF059CE07E1A8491085149 /* PBXTargetDependency */,
+			);
+			name = "Pods-BuglyProOverSeaDemo";
+			productName = Pods_BuglyProOverSeaDemo;
+			productReference = 209F00E91D6320EBA67EAFB54304D462 /* Pods-BuglyProOverSeaDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA7A44FEFDFF9E58E420CF716EE0784B /* Pods-BuglyProOverSeaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CA1BB99C31CFEBD571C61CE74FF833 /* Build configuration list for PBXNativeTarget "Pods-BuglyProOverSeaDemoTests" */;
+			buildPhases = (
+				5DE2225DA0862149A3D0177030F1ED30 /* Headers */,
+				3BDC741E79CD92663F11C34C43D89505 /* Sources */,
+				D0A3E2331412990E7C1CEAB7635F1E86 /* Frameworks */,
+				B96D8EE2E5BD8277A70E4D3992A43076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9FED8F7F2A8DFD99CE2DA6AB3426E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BuglyProOverSeaDemoTests";
+			productName = Pods_BuglyProOverSeaDemoTests;
+			productReference = 8B4508EF7652C4C6D2922479699CB899 /* Pods-BuglyProOverSeaDemoTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6510D9968DE7DF9477EE984BF0B4B1B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A5DC7B1951CDAB7350741D010C46C28 /* BuglyProOverSea */,
+				5411DC53A0934072179BC36509008285 /* Pods-BuglyProOverSeaDemo */,
+				1513EBB49A3A1A2F58C168910A00B9C4 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests */,
+				CA7A44FEFDFF9E58E420CF716EE0784B /* Pods-BuglyProOverSeaDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC154DE24868DC1F49B8DE8E5ED7AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458E0CB4A6D5F80E20396B393EF7C47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96D8EE2E5BD8277A70E4D3992A43076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB318D304C90130742810DC06DA024C1 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BuglyProOverSea/BuglyProOverSea-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/BuglyProOverSea/BuglyProOverSea-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/BuglyProOverSea/BuglyProOverSea-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274A022E0D5005FB3628BFD8307849A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1F060A7C2AA935B8A669009B78255F /* Pods-BuglyProOverSeaDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDC741E79CD92663F11C34C43D89505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E127CEA5522D906C26A6663CF6A59B /* Pods-BuglyProOverSeaDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CD3F2C8EDB29D2768417E25D9E72F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3FCC3EEF88FEE5901C47E38EB7FD0B /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C8F6B87F4FF059CE07E1A8491085149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BuglyProOverSea;
+			target = 5A5DC7B1951CDAB7350741D010C46C28 /* BuglyProOverSea */;
+			targetProxy = F5FB407B3B8DACEE4947EFD605B9F0FA /* PBXContainerItemProxy */;
+		};
+		76E2B8F94A6CA5C8C4B3BCCDAA7C14A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BuglyProOverSea;
+			target = 5A5DC7B1951CDAB7350741D010C46C28 /* BuglyProOverSea */;
+			targetProxy = 5338753CE46B2581DBCA6DA226F40BE8 /* PBXContainerItemProxy */;
+		};
+		EC9FED8F7F2A8DFD99CE2DA6AB3426E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BuglyProOverSeaDemo";
+			target = 5411DC53A0934072179BC36509008285 /* Pods-BuglyProOverSeaDemo */;
+			targetProxy = 282344D12DBF3406350B7BA69DD9F11E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DA383E6FDD651AD3B742C01789E416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DD4EACA990FA0CEDFA3CADBD1C8147 /* BuglyProOverSea.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B2900BC9B308EF3F6D57F6AFEBFA1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30202B6E505E7296C5AA91ACB65F65FF /* BuglyProOverSea.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4427C6A2BDDE480121D8C96DF610BDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D19324C359EB006F8C27EC6140DD84 /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6F3359B9EADC138495216D3A1E20ADFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434C11DA7EE1D305DF8943AA9A1C325F /* Pods-BuglyProOverSeaDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuglyProOverSeaDemo/Pods-BuglyProOverSeaDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuglyProOverSeaDemo/Pods-BuglyProOverSeaDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		836A1ABDCC6122ADEB2BABA34D0323F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3807E31EC5E1A110C75A4103CC5341C8 /* Pods-BuglyProOverSeaDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuglyProOverSeaDemo/Pods-BuglyProOverSeaDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuglyProOverSeaDemo/Pods-BuglyProOverSeaDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		992F12092221E61CCC72B52BE80EED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2F4894E6E700EEF8B19B0506002D5E /* Pods-BuglyProOverSeaDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuglyProOverSeaDemoTests/Pods-BuglyProOverSeaDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuglyProOverSeaDemoTests/Pods-BuglyProOverSeaDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AF9914F082C677AF111B09E3DD0606B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90814EFF4898D59AA9CBC5B1512D0F0E /* Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests/Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3859F88AD1BB915AAEE17244CE9A407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85704B9DD75E2F121DC823E13389BAAF /* Pods-BuglyProOverSeaDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BuglyProOverSeaDemoTests/Pods-BuglyProOverSeaDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BuglyProOverSeaDemoTests/Pods-BuglyProOverSeaDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B4D9ED77AF16BCB91A5D5A4A002A6B /* Build configuration list for PBXAggregateTarget "BuglyProOverSea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DA383E6FDD651AD3B742C01789E416 /* Debug */,
+				0B2900BC9B308EF3F6D57F6AFEBFA1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11CA1BB99C31CFEBD571C61CE74FF833 /* Build configuration list for PBXNativeTarget "Pods-BuglyProOverSeaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3859F88AD1BB915AAEE17244CE9A407 /* Debug */,
+				992F12092221E61CCC72B52BE80EED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B2571ABC73565CFD87D24A6E3E8F90F /* Build configuration list for PBXNativeTarget "Pods-BuglyProOverSeaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F3359B9EADC138495216D3A1E20ADFB /* Debug */,
+				836A1ABDCC6122ADEB2BABA34D0323F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4DD96B570993366B30315471D1D501 /* Build configuration list for PBXNativeTarget "Pods-BuglyProOverSeaDemo-BuglyProOverSeaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF9914F082C677AF111B09E3DD0606B /* Debug */,
+				4427C6A2BDDE480121D8C96DF610BDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

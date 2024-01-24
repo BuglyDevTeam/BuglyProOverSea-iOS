@@ -1,0 +1,16 @@
+PODS:
+  - BuglyProOverSea (2.7.51.2)
+
+DEPENDENCIES:
+  - BuglyProOverSea (from `https://raw.githubusercontent.com/BuglyDevTeam/BuglyProOverSea-iOS/main/BuglyProOverSea.podspec`)
+
+EXTERNAL SOURCES:
+  BuglyProOverSea:
+    :podspec: https://raw.githubusercontent.com/BuglyDevTeam/BuglyProOverSea-iOS/main/BuglyProOverSea.podspec
+
+SPEC CHECKSUMS:
+  BuglyProOverSea: ac82186f1805b037771202c4d82c75ad4bdb7146
+
+PODFILE CHECKSUM: ff02521fac89c57b1327348205a68c8a30ec196c
+
+COCOAPODS: 1.12.1
